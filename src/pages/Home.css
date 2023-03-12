@@ -1,0 +1,44 @@
+.home {
+  display: flex;
+  padding: 3rem 7rem;
+  
+}
+
+.populartitles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.populartitles > figure {
+  height: 300px;
+  width: 170px;
+  display: flex;
+  flex-direction: column;
+}
+
+.populartitles > figure > a {
+  background-color: var(--footer-bg);
+  height: 250px;
+  width: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.populartitles > figure > a > img {
+  object-fit: contain;
+  position: absolute;
+}
+
+.populartitles > figure > a > p {
+  position: absolute;
+  font-size: 2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--font-dark);
+}
+
+.populartitles > figure > h3 {
+  padding: 0.5rem 0;
+}

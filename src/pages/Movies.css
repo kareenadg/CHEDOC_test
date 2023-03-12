@@ -1,0 +1,73 @@
+.movies {
+  padding: 3rem 7rem 10rem 7rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.movies > div > figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 230px;
+  width: 155px;
+}
+
+.movies > div > figure > img {
+  height: 230px;
+  width: auto;
+}
+
+.movies > div > figure > img:hover {
+  filter: opacity(0.5);
+}
+
+.movies > div > button {
+  display: flex;
+  flex-wrap: wrap;
+  width: 155px;
+  padding-top: 0.5rem;
+  background: none;
+  font-size: 1rem;
+}
+
+.movies > div > button:hover {
+  text-decoration: underline;
+}
+
+.movies > div > dialog {
+  position: fixed;
+  margin: auto;
+  height: 300px;
+  width: 500px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding: 1.5rem;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.movies > div > dialog > button {
+  background: none;
+  float: right;
+  font-size: 1.5rem;
+}
+
+.dialogcard {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.dialogimg > img {
+  height: 230px;
+  width: auto;
+}
+
+.dialoginfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}

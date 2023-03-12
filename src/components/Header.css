@@ -1,0 +1,43 @@
+.header {
+  color: var(--font-dark);
+}
+
+.navbar {
+  background-color: var(--header-bg);
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 7rem;
+}
+
+.navbar > h1 {
+}
+
+.navlink {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.navlink > a {
+  font-weight: 550;
+}
+
+.navlink > button {
+  padding: 0.5rem;
+  height: 2.5rem;
+  width: fit-content;
+  background-color: var(--page-titlebg);
+  font-size: 1rem;
+  font-weight: 550;
+  color: var(--font-dark);
+}
+
+.popular {
+  background-color: var(--page-titlebg);
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  padding: 0 7rem;
+}

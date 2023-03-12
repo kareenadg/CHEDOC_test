@@ -1,0 +1,48 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--footer-bg);
+  color: #a6a5a5;
+  padding: 3rem 7rem;
+  gap: 1rem;
+}
+
+.links > ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.links > ul > li > a {
+  color: #d1d0d0;
+}
+
+.links > ul > li:not(:last-child) > a:after {
+  content: '|';
+  padding: 1rem;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+.social-media > ul {
+  display: flex;
+  gap: 2rem;
+}
+
+.social-media > ul > li > a > img {
+  height: 2rem;
+  width: auto;
+}
+
+.store > ul {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.store > ul > li > a > img {
+  height: 2.5rem;
+  width: auto;
+}
